@@ -43,6 +43,9 @@ function select_sku_conf() {
         standard_nc48ads_a100_v4)
            NHC_CONF_FILE_NEW=$CYCLECLOUD_SPEC_PATH/files/nc48ads_v4.conf
            ;;
+        standard_nd40rs_v2)
+           NHC_CONF_FILE_NEW=$CYCLECLOUD_SPEC_PATH/files/nd40rs_v2.conf
+           ;;           
         standard_hb120-96rs_v3)
            NHC_CONF_FILE_NEW=$CYCLECLOUD_SPEC_PATH/files/hb120-96rs_v3.conf
            ;;
